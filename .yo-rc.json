@@ -1,0 +1,52 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.vedio.remote"
+    },
+    "jhipsterVersion": "6.7.1",
+    "applicationType": "microservice",
+    "baseName": "vedio",
+    "packageName": "com.vedio.remote",
+    "packageFolder": "com/vedio/remote",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NzA5ZTRhZGVkMGIyYzU5OTAzMmZhMGIxYzU3OGNlMGY2MTIxNTc1NGZkNGY2ZjY1MWUyOGE2Yzk4OTM2NjNhYTdhODQzMmZhYjAzNjU5MGZkYTRjYTNjMmEzZjNjMDIxZjA5ZmE5NTZhZTA0OGIzYzNlNWE0YmFmODE0ZGUwM2I=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1585186968734,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-uaa-security-authority",
+        "version": "1.0.1"
+      },
+      {
+        "name": "generator-jhipster-administration-database",
+        "version": "1.0.4"
+      },
+      {
+        "name": "generator-jhipster-feign-client",
+        "version": "1.0.6"
+      }
+    ],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "reactive": true,
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
